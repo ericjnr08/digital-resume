@@ -1,0 +1,97 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  header {
+    display: flex;
+    justify-content: space-between;
+    background: white url(image/background3.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.menu {
+    list-style-type: none;
+    padding: 0;
+    color: #fff;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+  #profile-image {
+    width: 500px;
+    height: auto;
+    overflow: hidden;
+
+  }
+
+  #profile-info {
+    align-items: center;
+    flex-grow: 1;
+    padding-left: 20px;
+  }
+
+  main {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: auto auto;
+    gap: 20px;
+    padding: 20px;
+  }
+
+#work-experience {
+background-color: #f0f0f0;
+padding: 20px;
+grid-column-start: 1;
+grid-column-end: 2;
+}
+
+#education {
+background-color: #f0f0f0;
+padding: 20px;
+grid-column: 2; /* Updated this line */
+}
+#education2 {
+    padding:0%
+
+}
+
+#skills {
+background-color: #f0f0f0;
+padding: 20px;
+grid-column: 2; /* Updated this line */
+}
+
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+/* 
+  @media screen and (min-width: 425px){
+    h1 {
+        font-size: 0.5em;
+        padding: 0;
+    }
+
+    p {
+        font-size: 0.8em;
+    }
+    h3 {
+        font-size: 1em;
+        padding: 0%;
+    }
+
+    main {
+        margin: 1rem 8vw;
+    }
+    ul {
+        padding: 0%;
+    }
+    section {
+        padding-top: 0%;
+    }
+  } */
